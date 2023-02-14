@@ -120,8 +120,19 @@ Evaluate the final model on the test set.
 
 Out of the 9 models, he best-performing models were optimized by using Grid Search Cross-Validation. Five different models were selected, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The five models used were:
 
+ <h3>Gradient Boosting Regressor</h3>
+ 
 <p align="center">
-    <em>Gradient Boosting Regressor</em>
-    <br>
     <img src="Udacity.png" alt="Udacity logo">
 </p>
+
+ <h3>Random Forest Regressor</h3>
+ 
+ 
+ <h3>XG Boost Gegressor</h3>
+ 
+ 
+ <h3>Bagging Regressor</h3>
+ 
+ 
+ <h3>AdaBoost Regressor</h3>
