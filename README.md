@@ -15,7 +15,7 @@
 <a id="into"></a>
 <h2>Introduction</h2>
 
-The energy efficiency of buildings is becoming an increasingly important issue, both from an environmental and economic perspective. In this project, we focus on using machine learning to predict the cooling load requirements of buildings as a function of building parameters. Specifically, we aim to use eight building parameters to predict the cooling load. The dataset used for this project is obtained from the UCI Machine Learning repository and contains a total of 768 observations. The dataset is explored, preprocessed, and then used to train and evaluate various machine learning models. The primary objective of this project is to build a robust predictive model for cooling load requirements, which can aid in the design and development of energy-efficient buildings.
+The energy efficiency of buildings is becoming an increasingly important issue, both from an environmental and economic perspective. In this project, I focus on using machine learning to predict the cooling load requirements of buildings as a function of building parameters. Specifically, I aim to use eight building parameters to predict the cooling load. The dataset used for this project is obtained from the UCI Machine Learning repository and contains a total of 768 observations. The dataset is explored, preprocessed, and then used to train and evaluate various machine learning models. The primary objective of this project is to build a robust predictive model for cooling load requirements, which can aid in the design and development of energy-efficient buildings.
 
 <a id="data"></a>
 <h2>Data Gathering</h2>
@@ -25,8 +25,8 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 <table>
    <thead>
       <tr>
-          <th>__Variable__</th>
-         <th>__Attributes__</th>
+          <th>Variable</th>
+         <th>Attributes</th>
       </tr>
    </thead>
    <tbody>
@@ -72,3 +72,12 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
       </tr>
    </tbody>
 </table>
+
+<a id="explo"></a>
+<h2>Data Exploration</h2>
+
+- Boxplot: I plotted boxplots for the three groups of independent variables, i.e. 'Surface Area', 'Wall Area', and 'Roof Area'; 'Overall Height', 'Orientation', and 'Glazing Area Distribution'; and 'Glazing Area' and 'Relative Compactness'.I also plotted a boxplot for the dependent variable 'Cooling Load'. The boxplots show the distribution of the data for each variable and help to identify any potential outliers.
+
+- Correlation Heatmap: I created a correlation heatmap to visualize the pairwise correlations between the features. I found that the 'Relative Compactness', 'Surface Area', 'Wall Area', 'Roof Area', and 'Overall Height' have strong negative correlations with the Cooling Load. 'Glazing Area' has a strong positive correlation with the Cooling Load, while 'Orientation' and 'Glazing Area Distribution' have weak correlations with Cooling Load.
+
+- Pairplot: I created a pairplot to visualize the relationships between all pairs of features. This also helps to identify any potential outliers and identify any possible nonlinear relationships between the variables.
