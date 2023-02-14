@@ -24,6 +24,7 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 
 
 <center>
+    
 <table style="margin: 0 auto;">
    <thead>
       <tr>
@@ -74,6 +75,7 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
       </tr>
    </tbody>
 </table>
+    
 </center>
 
 <a id="explo"></a>
