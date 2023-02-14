@@ -98,7 +98,7 @@ The project was done on the __Jupyter Notebook__ environment, and the required p
 <h2>Model Building</h2>
 
 The data splited into training and testing sets. Where the training set represent 70% and the testing set represent 30% of the dataset.   
-Train and evaluate the performance of 9 different machine learning models:
+Train and evaluate the performance of nine different machine learning models:
 
 1. Linear Regression
 2. XG Boost Gegressor
@@ -118,4 +118,7 @@ Evaluate the final model on the test set.
 <a id="selection"></a>
 <h2>Model Selection</h2>
 
-Out of the 9 models, he best-performing models were optimized by using Grid Search Cross-Validation. Four different models were built for this project, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The four models used were:
+Out of the 9 models, he best-performing models were optimized by using Grid Search Cross-Validation. Five different models were selected, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The five models used were:
+
+<h3>Gradient Boosting Regressor</h3>
+
