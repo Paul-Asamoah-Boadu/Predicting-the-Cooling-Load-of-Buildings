@@ -122,9 +122,6 @@ Out of the 9 models, he best-performing models were optimized by using Grid Sear
 
  <h3>Gradient Boosting Regressor</h3>
  
-<p align="center">
-    <img src= alt="Udacity logo">
-</p>
 
  <h3>Random Forest Regressor</h3>
  
