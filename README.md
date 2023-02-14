@@ -120,5 +120,11 @@ Evaluate the final model on the test set.
 
 Out of the 9 models, he best-performing models were optimized by using Grid Search Cross-Validation. Five different models were selected, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The five models used were:
 
-<h3>Gradient Boosting Regressor</h3>
-
+<p align="center">
+    <h3>Gradient Boosting Regressor</h3>
+</p>
+<p align="center">
+  <img src="Udacity.png" alt="Udacity logo">
+  <br>
+  <em>Udacity Data Analyst Nanodegree</em>
+</p>
