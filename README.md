@@ -23,7 +23,8 @@ The energy efficiency of buildings is becoming an increasingly important issue, 
 The dataset was obtained from the UCI Machine learning repository [link](https://archive.ics.uci.edu/ml/datasets/energy+efficiency). The dataset includes 768 samples and 9 variables (8 features and 1 target variable). The target variable in this project is the cooling load of a building, and the eight features represent various building parameters. All variables are continuous, and there are no missing values in the dataset.
 
 
-<table align="cneter">
+<center>
+<table style="margin: 0 auto;">
    <thead>
       <tr>
           <th>Variable</th>
@@ -73,7 +74,8 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
       </tr>
    </tbody>
 </table>
-    
+</center>
+
 <a id="explo"></a>
 <h2>Data Exploration</h2>
 
