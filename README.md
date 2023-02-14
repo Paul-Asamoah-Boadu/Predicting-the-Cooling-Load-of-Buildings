@@ -22,58 +22,58 @@ The energy efficiency of buildings is becoming an increasingly important issue, 
 
 The dataset was obtained from the UCI Machine learning repository [link](https://archive.ics.uci.edu/ml/datasets/energy+efficiency). The dataset includes 768 samples and 9 variables (8 features and 1 target variable). The target variable in this project is the cooling load of a building, and the eight features represent various building parameters. All variables are continuous, and there are no missing values in the dataset.
 
-<p align="center">
-    <table>
-       <thead>
-          <tr>
-              <th>Variable</th>
-             <th>Attributes</th>
-          </tr>
-       </thead>
-       <tbody>
-          <tr>
-             <td>X1</td>
-             <td>Relative Compactness</td>
-          </tr>
-          <tr>
-             <td>X2</td>
-             <td>Surface Area</td>
-          </tr>
-          <tr>
-             <td>X3</td>
-             <td>Wall Area</td>
-          </tr>
-          <tr>
-             <td>X4</td>
-             <td>Roof Area</td>
-          </tr>
-          <tr>
-             <td>X5</td>
-             <td>Overall Height</td>
-          </tr>
-          <tr>
-             <td>X6</td>
-             <td>Orientation</td>
-          </tr>
-          <tr>
-             <td>X7</td>
-             <td>Glazing Area</td>
-          </tr>
-          <tr>
-             <td>X8</td>
-             <td>Glazing Area Distribution</td>
-          </tr>
-          <tr>
-             <td>Y1</td>
-             <td>Heating Load</td>
-          </tr>
-          <tr>
-             <td>Y2</td>
-             <td>Cooling Load</td>
-          </tr>
-       </tbody>
-    </table>
-</p>
+
+<table align="cneter">
+   <thead>
+      <tr>
+          <th>Variable</th>
+         <th>Attributes</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>X1</td>
+         <td>Relative Compactness</td>
+      </tr>
+      <tr>
+         <td>X2</td>
+         <td>Surface Area</td>
+      </tr>
+      <tr>
+         <td>X3</td>
+         <td>Wall Area</td>
+      </tr>
+      <tr>
+         <td>X4</td>
+         <td>Roof Area</td>
+      </tr>
+      <tr>
+         <td>X5</td>
+         <td>Overall Height</td>
+      </tr>
+      <tr>
+         <td>X6</td>
+         <td>Orientation</td>
+      </tr>
+      <tr>
+         <td>X7</td>
+         <td>Glazing Area</td>
+      </tr>
+      <tr>
+         <td>X8</td>
+         <td>Glazing Area Distribution</td>
+      </tr>
+      <tr>
+         <td>Y1</td>
+         <td>Heating Load</td>
+      </tr>
+      <tr>
+         <td>Y2</td>
+         <td>Cooling Load</td>
+      </tr>
+   </tbody>
+</table>
+    
 <a id="explo"></a>
 <h2>Data Exploration</h2>
 
