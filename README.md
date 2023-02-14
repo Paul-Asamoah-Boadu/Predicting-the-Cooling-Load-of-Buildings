@@ -12,7 +12,7 @@
     <li><a href="#conclusion">Conclusion</a></li>
 </ul>
 
-<a =id"into"></a>
+<a id="into"></a>
 <h2>Introduction</h2>
 
 The energy efficiency of buildings is becoming an increasingly important issue, both from an environmental and economic perspective. In this project, we focus on using machine learning to predict the cooling load requirements of buildings as a function of building parameters. Specifically, we aim to use eight building parameters to predict the cooling load. The dataset used for this project is obtained from the UCI Machine Learning repository and contains a total of 768 observations. The dataset is explored, preprocessed, and then used to train and evaluate various machine learning models. The primary objective of this project is to build a robust predictive model for cooling load requirements, which can aid in the design and development of energy-efficient buildings.
@@ -25,7 +25,7 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 <table>
    <thead>
       <tr>
-         <th>Variable</th>
+          <th><b>Variable</b></th>
          <th>Attributes</th>
       </tr>
    </thead>
