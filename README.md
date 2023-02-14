@@ -12,7 +12,7 @@
     <li><a href="#conclusion">Conclusion</a></li>
 </ul>
 
-<a id="into"></a>
+<a id="intro"></a>
 <h2>Introduction</h2>
 
 The energy efficiency of buildings is becoming an increasingly important issue, both from an environmental and economic perspective. In this project, I focus on using machine learning to predict the cooling load requirements of buildings as a function of building parameters. Specifically, I aim to use eight building parameters to predict the cooling load. The dataset used for this project is obtained from the UCI Machine Learning repository and contains a total of 768 observations. The dataset is explored, preprocessed, and then used to train and evaluate various machine learning models. The primary objective of this project is to build a robust predictive model for cooling load requirements, which can aid in the design and development of energy-efficient buildings.
@@ -81,3 +81,37 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 - Correlation Heatmap: I created a correlation heatmap to visualize the pairwise correlations between the features. I found that the 'Relative Compactness', 'Surface Area', 'Wall Area', 'Roof Area', and 'Overall Height' have strong negative correlations with the Cooling Load. 'Glazing Area' has a strong positive correlation with the Cooling Load, while 'Orientation' and 'Glazing Area Distribution' have weak correlations with Cooling Load.
 
 - Pairplot: I created a pairplot to visualize the relationships between all pairs of features. This also helps to identify any potential outliers and identify any possible nonlinear relationships between the variables.
+
+<a id="tools"></a>
+<h2>Tools Used</h2>
+
+The project was done on the __Jupyter Notebook__ environment, and the required packages and libraries to run this project include:
+
+- NumPy
+- Pandas
+- Scikit-learn
+- XGBoost
+- Matplotlib.pyplot
+- Seaborn
+
+<a id="model"></a>
+<h2>Model Building</h2>
+
+The data splited into training and testing sets.
+Train and evaluate the performance of 5 different machine learning models:
+The following regression algorithms are used in this project:
+
+Lasso
+Ridge
+Decision Tree Regressor
+Bagging Regressor
+Random Forest Regressor
+Gradient Boosting Regressor
+AdaBoost Regressor
+Optimize the best-performing model using Grid Search Cross-Validation.
+Evaluate the final model on the test set.
+
+<a id="selection"></a>
+<h2>Model Selection</h2>
+
+Four different models were built for this project, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The four models used were:
