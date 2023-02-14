@@ -25,7 +25,9 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 <table>
    <thead>
       <tr>
-          <th><b>Variable</b></th>
+          <th>
+              <b>Variable</b>
+          </th>
          <th>Attributes</th>
       </tr>
    </thead>
