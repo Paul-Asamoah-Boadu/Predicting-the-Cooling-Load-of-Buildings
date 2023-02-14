@@ -20,7 +20,7 @@ The energy efficiency of buildings is becoming an increasingly important issue, 
 <a id="data"></a>
 <h2>Data Gathering</h2>
 
-The dataset was obtained from the UCI Machine learning repository [link](https://archive.ics.uci.edu/ml/datasets/energy+efficiency). The dataset contains eight attributes (or features, denoted by X1...X8) and two responses (or outcomes, denoted by Y1 and Y2). The aim is to use the eight features to predict the response Cooling Load(Y2). Specifically:
+The dataset was obtained from the UCI Machine learning repository [link](https://archive.ics.uci.edu/ml/datasets/energy+efficiency). The dataset includes 768 samples and 9 variables (8 features and 1 target variable). The target variable in this project is the cooling load of a building, and the eight features represent various building parameters. All variables are continuous, and there are no missing values in the dataset.
 
 <table>
    <thead>
@@ -97,21 +97,25 @@ The project was done on the __Jupyter Notebook__ environment, and the required p
 <a id="model"></a>
 <h2>Model Building</h2>
 
-The data splited into training and testing sets.
-Train and evaluate the performance of 5 different machine learning models:
-The following regression algorithms are used in this project:
+The data splited into training and testing sets. Where the training set represent 70% and the testing set represent 30% of the dataset.   
+Train and evaluate the performance of 9 different machine learning models:
 
-Lasso
-Ridge
-Decision Tree Regressor
-Bagging Regressor
-Random Forest Regressor
-Gradient Boosting Regressor
-AdaBoost Regressor
-Optimize the best-performing model using Grid Search Cross-Validation.
+1. Linear Regression
+2. XG Boost Gegressor
+3. Gradient Boosting Regressor
+4. Random Forest Regressor
+5. Lasso
+6. Decision Tree Regressor
+7. Ridge
+8. AdaBoost Regressor
+9. Bagging Regressor
+
+These models were chosen because they are commonly used in regression problems and have proven to be effective in previous studies. All models were trained using the 70/30 train-test split of the data. The models were optimized using the mean squared error (MSE) and R-squared (R2) score as evaluation metrics.
+
+Optimize tusing .
 Evaluate the final model on the test set.
 
 <a id="selection"></a>
 <h2>Model Selection</h2>
 
-Four different models were built for this project, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The four models used were:
+Out of the 9 models, he best-performing models were optimized by using Grid Search Cross-Validation. Four different models were built for this project, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The four models used were:
