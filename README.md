@@ -126,10 +126,10 @@ Evaluate the final model on the test set.
 Out of the 9 models, he best-performing models were optimized by using Grid Search Cross-Validation. Five different models were selected, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The five models used were:
 
  <h3>Gradient Boosting Regressor</h3>
-<img src="Gradient Boosting.png" alt="Visualization of test and trian of Gradient Boosting Regressor">  
+<img src="Gradient Boosting.png" alt="Visualization of test and train of Gradient Boosting Regressor">  
 
  <h3>Random Forest Regressor</h3>
- 
+ <img src="Random Forest.png" alt="Visualization of test and train of Random Forest Regressor">
  
  <h3>XG Boost Gegressor</h3>
  
