@@ -131,8 +131,8 @@ Out of the 9 models, he best-performing models were optimized by using Grid Sear
  <h3>Random Forest Regressor</h3>
  <img src="Random Forest.png" alt="Visualization of test and train of Random Forest Regressor">
  
- <h3>XG Boost Gegressor</h3>
- 
+ <h3>XG Boost Regressor</h3>
+ <img src="XG Boost.png" alt="Visualization of test and train of XG Booting Regressor">
  
  <h3>Bagging Regressor</h3>
  
