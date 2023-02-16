@@ -120,6 +120,15 @@ These models were chosen because they are commonly used in regression problems a
 Optimize tusing .
 Evaluate the final model on the test set.
 
+
+Evaluation Metrics
+
+The models are evaluated using the following metrics:
+
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+R-squared (R2)
+
 <a id="selection"></a>
 <h2>Model Selection</h2>
 
@@ -142,3 +151,5 @@ Out of the 9 models, he best-performing models were optimized by using Grid Sear
 
 <a id="conclusion"></a>
 <h2>Conclusion</h2>
+
+In conclusion, I explored using machine learning to assess the cooling load requirements of buildings. From the results, it is clear that the ensemble methods such as `Random Forest Regressor`, `AdaBoost Regressor`, and `Gradient Boosting Regressor` models performed better than the other models. The `Gradient Boosting Regressor` model has the best performance with a __RMSE score of 0.80__ and __R2 score of 0.99__. This makes the `Gradient Boosting Regressor` the best model for predicting the cooling load of buildings using the energy efficiency dataset from UCI Machine learning repository.
