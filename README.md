@@ -139,3 +139,6 @@ Out of the 9 models, he best-performing models were optimized by using Grid Sear
  
  <h3>AdaBoost Regressor</h3>
 <img src="AdaBoost.png" alt="Visualization of test and train of AdaBoost Regressor">
+
+<a id="conclusion"></a>
+<h2>Conclusion</h2>
