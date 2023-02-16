@@ -82,7 +82,7 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 <a id="explo"></a>
 <h2>Data Exploration</h2>
 
-- Boxplot: I plotted boxplots for the three groups of independent variables, i.e. 'Surface Area', 'Wall Area', and 'Roof Area'; 'Overall Height', 'Orientation', and 'Glazing Area Distribution'; and 'Glazing Area' and 'Relative Compactness'.I also plotted a boxplot for the dependent variable 'Cooling Load'. The boxplots show the distribution of the data for each variable and help to identify any potential outliers.
+- Boxplot: I plotted boxplots for the three groups of independent variables, i.e. `Surface Area`, `Wall Area`, and `Roof Area`; `Overall Height`, `Orientation`, and `Glazing Area Distribution`; and `Glazing Area` and `Relative Compactness`.I also plotted a boxplot for the dependent variable `Cooling Load`. The boxplots show the distribution of the data for each variable and help to identify any potential outliers.
 
 - Correlation Heatmap: I created a correlation heatmap to visualize the pairwise correlations between the features. I found that the 'Relative Compactness', 'Surface Area', 'Wall Area', 'Roof Area', and 'Overall Height' have strong negative correlations with the Cooling Load. 'Glazing Area' has a strong positive correlation with the Cooling Load, while 'Orientation' and 'Glazing Area Distribution' have weak correlations with Cooling Load.
 
