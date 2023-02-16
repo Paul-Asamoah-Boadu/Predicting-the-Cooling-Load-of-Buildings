@@ -8,6 +8,7 @@
     <li><a href="#explo">Data Exploration</a></li>
     <li><a href="#tools">Tools Used</a></li>
     <li><a href="#model">Model Building</a></li>
+    <li><a href="#metrics">Evaluation Metrics</a></li>
     <li><a href="#selection">Model Selection</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
 </ul>
@@ -117,17 +118,13 @@ Train and evaluate the performance of nine different machine learning models:
 
 These models were chosen because they are commonly used in regression problems and have proven to be effective in previous studies. All models were trained using the 70/30 train-test split of the data. The models were optimized using the mean squared error (MSE) and R-squared (R2) score as evaluation metrics.
 
-Optimize tusing .
-Evaluate the final model on the test set.
-
-
-Evaluation Metrics
+<a id="metrics"></a>
+<h2>Evaluation Metrics</h2>
 
 The models are evaluated using the following metrics:
 
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-R-squared (R2)
+- Root Mean Squared Error `RMSE`
+- R-squared `R2`
 
 <a id="selection"></a>
 <h2>Model Selection</h2>
