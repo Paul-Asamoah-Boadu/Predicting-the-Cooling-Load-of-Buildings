@@ -86,7 +86,7 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 
 - <b>Correlation Heatmap</b>: I created a correlation heatmap to visualize the pairwise correlations between the features. I found that the `Relative Compactness`, `Surface Area`, `Wall Area`, `Roof Area`, and `Overall Height` have strong negative correlations with the Cooling Load. `Glazing Area` has a strong positive correlation with the Cooling Load, while `Orientation` and `Glazing Area Distribution` have weak correlations with Cooling Load.
 
-- Pairplot:__ I created a pairplot to visualize the relationships between all pairs of features. This also helps to identify any potential outliers and identify any possible nonlinear relationships between the variables.
+- Pairplot: I created a pairplot to visualize the relationships between all pairs of features. This also helps to identify any potential outliers and identify any possible nonlinear relationships between the variables.
 
 <a id="tools"></a>
 <h2>Tools Used</h2>
