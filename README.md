@@ -123,7 +123,7 @@ These models were chosen because they are commonly used in regression problems a
 
 The models are evaluated using the following metrics:
 
-- Root Mean Squared Error <code>RMSE`</code>
+- Root Mean Squared Error <code>RMSE</code>
 - R-squared `R2`
 
 <a id="selection"></a>
