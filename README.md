@@ -129,7 +129,7 @@ The models are evaluated using the following metrics:
 <a id="selection"></a>
 <h2>Model Selection</h2>
 
-Out of the 9 models, the best-performing models were optimized by using __Grid Search Cross-Validation__. Five different models were selected, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The five models used were:
+Out of the 9 models, the best-performing models were optimized by using _Grid Search Cross-Validation__. Five different models were selected, and the performance of each model was visualized using a custom function `model_perf_visual()` that compares the actual and predicted values. The five models used were:
 
  <h3>Gradient Boosting Regressor</h3>
 <img src="Gradient Boosting.png" alt="Visualization of test and train of Gradient Boosting Regressor">  
