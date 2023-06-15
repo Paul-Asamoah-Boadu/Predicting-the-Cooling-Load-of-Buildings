@@ -103,7 +103,7 @@ The project was done on the __Jupyter Notebook__ environment, and the required p
 <a id="model"></a>
 <h2>Model Building</h2>
 
-The data splited into training and testing sets. Where the training set represents 70% and the testing set represent 30% of the dataset.   
+The data splited into training and testing sets. Where the training set represents 70% and the testing set represents 30% of the dataset.   
 Train and evaluate the performance of nine different machine learning models:
 
 1. Linear Regression
