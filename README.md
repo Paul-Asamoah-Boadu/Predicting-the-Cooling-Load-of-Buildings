@@ -80,7 +80,7 @@ The dataset was obtained from the UCI Machine learning repository [link](https:/
 </center>
 
 <a id="explo"></a>
-<>h2Data Exploration</h2>
+<h2>Data Exploration</h2>
 
 - <b>Boxplot</b>: I plotted boxplots for the three groups of independent variables, i.e. `Surface Area`, `Wall Area`, and `Roof Area`; `Overall Height`, `Orientation`, and `Glazing Area Distribution`; and `Glazing Area` and `Relative Compactness`.I also plotted a boxplot for the dependent variable `Cooling Load`. The boxplots show the distribution of the data for each variable and help to identify any potential outliers.
 
